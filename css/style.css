@@ -1,0 +1,41 @@
+body {
+    background-color: #24353f;
+}
+
+.card {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group .form-control {
+    background-color: transparent;
+    /* border: none; */
+    color: #fff;
+
+}
+
+.form-group .form-control::placeholder {
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.error-message {
+    display: block;
+    text-align: start;
+}
+
+@media screen and (max-width:576px) {
+    .card {
+        width: 100% !important;
+    }
+}
